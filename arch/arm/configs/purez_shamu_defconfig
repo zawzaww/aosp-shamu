@@ -1,11 +1,12 @@
-#
-# Linux/arm 3.10.107 Shamu PureZ Kernel Configuration
-#
+#######################################################
+# Linux/arm 3.10.108 Shamu PureZ Kernel Configuration #
+#######################################################
 
-
-#
-# PureZ Setup
-#
+###############
+#             #
+# PureZ Setup #
+#             #
+###############
 CONFIG_LOCALVERSION="-shamu:PureZ-Kernel-4.1"
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_WAKE_GESTURES=y
@@ -38,10 +39,11 @@ CONFIG_NTFS_FS=y
 # CONFIG_NTFS_DEBUG is not set
 CONFIG_NTFS_RW=y
 
-
-#
-# Shamu Setup
-#
+###############
+#             #
+# shamu Setup #
+#             #    
+###############
 # CONFIG_ARM_PATCH_PHYS_VIRT is not set
 CONFIG_BOOTINFO=y
 CONFIG_AUDIT=y
